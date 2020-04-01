@@ -1,4 +1,4 @@
-package com.allen.nio.buffer;
+package com.allen.nio;
 
 import java.nio.Buffer;
 import java.nio.ByteBuffer;
@@ -69,10 +69,5 @@ public class BufferTest {
     System.out.println(buffer.position());
     System.out.println(buffer.limit());
     System.out.println(buffer.capacity());
-
-
-    System.out.println("---------直接缓冲区 操作----------");
-
-    ByteBuffer buffer2 = ByteBuffer.allocateDirect(1024);
   }
 }
